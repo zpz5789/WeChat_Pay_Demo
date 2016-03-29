@@ -15,6 +15,37 @@
 		9CCAFCB81C89650F00F6036B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CCAFCB61C89650F00F6036B /* LaunchScreen.storyboard */; };
 		9CCAFCC31C89651000F6036B /* WeChat_Pay_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCC21C89651000F6036B /* WeChat_Pay_DemoTests.m */; };
 		9CCAFCCE1C89651000F6036B /* WeChat_Pay_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCCD1C89651000F6036B /* WeChat_Pay_DemoUITests.m */; };
+		9CCAFCDF1C89653B00F6036B /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCAFCDC1C89653B00F6036B /* libWeChatSDK.a */; };
+		9CCAFCE21C8965B200F6036B /* WeChatPayMannager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCE11C8965B200F6036B /* WeChatPayMannager.m */; };
+		9CCAFCE71C896D4200F6036B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCAFCE61C896D4200F6036B /* SystemConfiguration.framework */; };
+		9CCAFCE91C896D5C00F6036B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCAFCE81C896D5C00F6036B /* libz.tbd */; };
+		9CCAFCEB1C896D6B00F6036B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCAFCEA1C896D6B00F6036B /* libsqlite3.0.tbd */; };
+		9CCAFCED1C896D8400F6036B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCAFCEC1C896D8400F6036B /* libc++.tbd */; };
+		9CCAFCEF1C896DC100F6036B /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CCAFCEE1C896DC100F6036B /* CoreTelephony.framework */; };
+		9CCAFCF21C89708E00F6036B /* DataMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCF11C89708E00F6036B /* DataMD5.m */; };
+		9CCAFD191C89717900F6036B /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCF61C89717900F6036B /* AFHTTPSessionManager.m */; };
+		9CCAFD1A1C89717900F6036B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCF91C89717900F6036B /* AFNetworkReachabilityManager.m */; };
+		9CCAFD1B1C89717900F6036B /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCFB1C89717900F6036B /* AFSecurityPolicy.m */; };
+		9CCAFD1C1C89717900F6036B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCFD1C89717900F6036B /* AFURLRequestSerialization.m */; };
+		9CCAFD1D1C89717900F6036B /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFCFF1C89717900F6036B /* AFURLResponseSerialization.m */; };
+		9CCAFD1E1C89717900F6036B /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD011C89717900F6036B /* AFURLSessionManager.m */; };
+		9CCAFD1F1C89717900F6036B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9CCAFD021C89717900F6036B /* LICENSE */; };
+		9CCAFD201C89717900F6036B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD031C89717900F6036B /* README.md */; };
+		9CCAFD211C89717900F6036B /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD061C89717900F6036B /* AFAutoPurgingImageCache.m */; };
+		9CCAFD221C89717900F6036B /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD081C89717900F6036B /* AFImageDownloader.m */; };
+		9CCAFD231C89717900F6036B /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD0A1C89717900F6036B /* AFNetworkActivityIndicatorManager.m */; };
+		9CCAFD241C89717900F6036B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD0C1C89717900F6036B /* UIActivityIndicatorView+AFNetworking.m */; };
+		9CCAFD251C89717900F6036B /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD0E1C89717900F6036B /* UIButton+AFNetworking.m */; };
+		9CCAFD261C89717900F6036B /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD111C89717900F6036B /* UIImageView+AFNetworking.m */; };
+		9CCAFD271C89717900F6036B /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD141C89717900F6036B /* UIProgressView+AFNetworking.m */; };
+		9CCAFD281C89717900F6036B /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD161C89717900F6036B /* UIRefreshControl+AFNetworking.m */; };
+		9CCAFD291C89717900F6036B /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD181C89717900F6036B /* UIWebView+AFNetworking.m */; };
+		9CCAFD331C8973FE00F6036B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD2C1C8973FE00F6036B /* SVIndefiniteAnimatedView.m */; };
+		9CCAFD341C8973FE00F6036B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9CCAFD2E1C8973FE00F6036B /* SVProgressHUD.bundle */; };
+		9CCAFD351C8973FE00F6036B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD301C8973FE00F6036B /* SVProgressHUD.m */; };
+		9CCAFD361C8973FE00F6036B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD321C8973FE00F6036B /* SVRadialGradientLayer.m */; };
+		9CCAFD391C89742000F6036B /* JJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD381C89742000F6036B /* JJProgressHUD.m */; };
+		9CCAFD3C1C8974CA00F6036B /* XMLDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CCAFD3B1C8974CA00F6036B /* XMLDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +82,66 @@
 		9CCAFCC91C89651000F6036B /* WeChat_Pay_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChat_Pay_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCAFCCD1C89651000F6036B /* WeChat_Pay_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChat_Pay_DemoUITests.m; sourceTree = "<group>"; };
 		9CCAFCCF1C89651000F6036B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CCAFCDC1C89653B00F6036B /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		9CCAFCDD1C89653B00F6036B /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		9CCAFCDE1C89653B00F6036B /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		9CCAFCE01C8965B200F6036B /* WeChatPayMannager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeChatPayMannager.h; sourceTree = "<group>"; };
+		9CCAFCE11C8965B200F6036B /* WeChatPayMannager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeChatPayMannager.m; sourceTree = "<group>"; };
+		9CCAFCE61C896D4200F6036B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9CCAFCE81C896D5C00F6036B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		9CCAFCEA1C896D6B00F6036B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		9CCAFCEC1C896D8400F6036B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		9CCAFCEE1C896DC100F6036B /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9CCAFCF01C89708E00F6036B /* DataMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataMD5.h; sourceTree = "<group>"; };
+		9CCAFCF11C89708E00F6036B /* DataMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataMD5.m; sourceTree = "<group>"; };
+		9CCAFCF51C89717900F6036B /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		9CCAFCF61C89717900F6036B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		9CCAFCF71C89717900F6036B /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		9CCAFCF81C89717900F6036B /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		9CCAFCF91C89717900F6036B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		9CCAFCFA1C89717900F6036B /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		9CCAFCFB1C89717900F6036B /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		9CCAFCFC1C89717900F6036B /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		9CCAFCFD1C89717900F6036B /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		9CCAFCFE1C89717900F6036B /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		9CCAFCFF1C89717900F6036B /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		9CCAFD001C89717900F6036B /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		9CCAFD011C89717900F6036B /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		9CCAFD021C89717900F6036B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9CCAFD031C89717900F6036B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9CCAFD051C89717900F6036B /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		9CCAFD061C89717900F6036B /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
+		9CCAFD071C89717900F6036B /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		9CCAFD081C89717900F6036B /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		9CCAFD091C89717900F6036B /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		9CCAFD0A1C89717900F6036B /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		9CCAFD0B1C89717900F6036B /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD0C1C89717900F6036B /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		9CCAFD0D1C89717900F6036B /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD0E1C89717900F6036B /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		9CCAFD0F1C89717900F6036B /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD101C89717900F6036B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD111C89717900F6036B /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		9CCAFD121C89717900F6036B /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD131C89717900F6036B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD141C89717900F6036B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		9CCAFD151C89717900F6036B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD161C89717900F6036B /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		9CCAFD171C89717900F6036B /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		9CCAFD181C89717900F6036B /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		9CCAFD2B1C8973FE00F6036B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		9CCAFD2C1C8973FE00F6036B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		9CCAFD2D1C8973FE00F6036B /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		9CCAFD2E1C8973FE00F6036B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9CCAFD2F1C8973FE00F6036B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9CCAFD301C8973FE00F6036B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9CCAFD311C8973FE00F6036B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		9CCAFD321C8973FE00F6036B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		9CCAFD371C89742000F6036B /* JJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJProgressHUD.h; sourceTree = "<group>"; };
+		9CCAFD381C89742000F6036B /* JJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJProgressHUD.m; sourceTree = "<group>"; };
+		9CCAFD3A1C8974CA00F6036B /* XMLDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDictionary.h; sourceTree = "<group>"; };
+		9CCAFD3B1C8974CA00F6036B /* XMLDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDictionary.m; sourceTree = "<group>"; };
+		9CCAFD3D1C89843900F6036B /* WeChatPayConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeChatPayConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +149,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CCAFCEF1C896DC100F6036B /* CoreTelephony.framework in Frameworks */,
+				9CCAFCED1C896D8400F6036B /* libc++.tbd in Frameworks */,
+				9CCAFCEB1C896D6B00F6036B /* libsqlite3.0.tbd in Frameworks */,
+				9CCAFCE91C896D5C00F6036B /* libz.tbd in Frameworks */,
+				9CCAFCE71C896D4200F6036B /* SystemConfiguration.framework in Frameworks */,
+				9CCAFCDF1C89653B00F6036B /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +178,8 @@
 		9CCAFC9C1C89650F00F6036B = {
 			isa = PBXGroup;
 			children = (
+				9CCAFD2A1C8973FE00F6036B /* SVProgressHUD */,
+				9CCAFCF31C89717900F6036B /* AFNetworking */,
 				9CCAFCA71C89650F00F6036B /* WeChat_Pay_Demo */,
 				9CCAFCC11C89651000F6036B /* WeChat_Pay_DemoTests */,
 				9CCAFCCC1C89651000F6036B /* WeChat_Pay_DemoUITests */,
@@ -101,14 +200,27 @@
 		9CCAFCA71C89650F00F6036B /* WeChat_Pay_Demo */ = {
 			isa = PBXGroup;
 			children = (
+				9CCAFCDB1C89653B00F6036B /* SDKExport */,
 				9CCAFCAB1C89650F00F6036B /* AppDelegate.h */,
 				9CCAFCAC1C89650F00F6036B /* AppDelegate.m */,
 				9CCAFCAE1C89650F00F6036B /* ViewController.h */,
 				9CCAFCAF1C89650F00F6036B /* ViewController.m */,
+				9CCAFD3A1C8974CA00F6036B /* XMLDictionary.h */,
+				9CCAFD3B1C8974CA00F6036B /* XMLDictionary.m */,
+				9CCAFCE01C8965B200F6036B /* WeChatPayMannager.h */,
+				9CCAFCE11C8965B200F6036B /* WeChatPayMannager.m */,
+				9CCAFD3D1C89843900F6036B /* WeChatPayConfig.h */,
+				9CCAFCF01C89708E00F6036B /* DataMD5.h */,
+				9CCAFCF11C89708E00F6036B /* DataMD5.m */,
 				9CCAFCB11C89650F00F6036B /* Main.storyboard */,
 				9CCAFCB41C89650F00F6036B /* Assets.xcassets */,
 				9CCAFCB61C89650F00F6036B /* LaunchScreen.storyboard */,
 				9CCAFCB91C89650F00F6036B /* Info.plist */,
+				9CCAFCEE1C896DC100F6036B /* CoreTelephony.framework */,
+				9CCAFCEC1C896D8400F6036B /* libc++.tbd */,
+				9CCAFCEA1C896D6B00F6036B /* libsqlite3.0.tbd */,
+				9CCAFCE81C896D5C00F6036B /* libz.tbd */,
+				9CCAFCE61C896D4200F6036B /* SystemConfiguration.framework */,
 				9CCAFCA81C89650F00F6036B /* Supporting Files */,
 			);
 			path = WeChat_Pay_Demo;
@@ -138,6 +250,91 @@
 				9CCAFCCF1C89651000F6036B /* Info.plist */,
 			);
 			path = WeChat_Pay_DemoUITests;
+			sourceTree = "<group>";
+		};
+		9CCAFCDB1C89653B00F6036B /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				9CCAFCDC1C89653B00F6036B /* libWeChatSDK.a */,
+				9CCAFCDD1C89653B00F6036B /* WXApi.h */,
+				9CCAFCDE1C89653B00F6036B /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		9CCAFCF31C89717900F6036B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9CCAFCF41C89717900F6036B /* AFNetworking */,
+				9CCAFD021C89717900F6036B /* LICENSE */,
+				9CCAFD031C89717900F6036B /* README.md */,
+				9CCAFD041C89717900F6036B /* UIKit+AFNetworking */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9CCAFCF41C89717900F6036B /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9CCAFCF51C89717900F6036B /* AFHTTPSessionManager.h */,
+				9CCAFCF61C89717900F6036B /* AFHTTPSessionManager.m */,
+				9CCAFCF71C89717900F6036B /* AFNetworking.h */,
+				9CCAFCF81C89717900F6036B /* AFNetworkReachabilityManager.h */,
+				9CCAFCF91C89717900F6036B /* AFNetworkReachabilityManager.m */,
+				9CCAFCFA1C89717900F6036B /* AFSecurityPolicy.h */,
+				9CCAFCFB1C89717900F6036B /* AFSecurityPolicy.m */,
+				9CCAFCFC1C89717900F6036B /* AFURLRequestSerialization.h */,
+				9CCAFCFD1C89717900F6036B /* AFURLRequestSerialization.m */,
+				9CCAFCFE1C89717900F6036B /* AFURLResponseSerialization.h */,
+				9CCAFCFF1C89717900F6036B /* AFURLResponseSerialization.m */,
+				9CCAFD001C89717900F6036B /* AFURLSessionManager.h */,
+				9CCAFD011C89717900F6036B /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		9CCAFD041C89717900F6036B /* UIKit+AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				9CCAFD051C89717900F6036B /* AFAutoPurgingImageCache.h */,
+				9CCAFD061C89717900F6036B /* AFAutoPurgingImageCache.m */,
+				9CCAFD071C89717900F6036B /* AFImageDownloader.h */,
+				9CCAFD081C89717900F6036B /* AFImageDownloader.m */,
+				9CCAFD091C89717900F6036B /* AFNetworkActivityIndicatorManager.h */,
+				9CCAFD0A1C89717900F6036B /* AFNetworkActivityIndicatorManager.m */,
+				9CCAFD0B1C89717900F6036B /* UIActivityIndicatorView+AFNetworking.h */,
+				9CCAFD0C1C89717900F6036B /* UIActivityIndicatorView+AFNetworking.m */,
+				9CCAFD0D1C89717900F6036B /* UIButton+AFNetworking.h */,
+				9CCAFD0E1C89717900F6036B /* UIButton+AFNetworking.m */,
+				9CCAFD0F1C89717900F6036B /* UIImage+AFNetworking.h */,
+				9CCAFD101C89717900F6036B /* UIImageView+AFNetworking.h */,
+				9CCAFD111C89717900F6036B /* UIImageView+AFNetworking.m */,
+				9CCAFD121C89717900F6036B /* UIKit+AFNetworking.h */,
+				9CCAFD131C89717900F6036B /* UIProgressView+AFNetworking.h */,
+				9CCAFD141C89717900F6036B /* UIProgressView+AFNetworking.m */,
+				9CCAFD151C89717900F6036B /* UIRefreshControl+AFNetworking.h */,
+				9CCAFD161C89717900F6036B /* UIRefreshControl+AFNetworking.m */,
+				9CCAFD171C89717900F6036B /* UIWebView+AFNetworking.h */,
+				9CCAFD181C89717900F6036B /* UIWebView+AFNetworking.m */,
+			);
+			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		9CCAFD2A1C8973FE00F6036B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9CCAFD371C89742000F6036B /* JJProgressHUD.h */,
+				9CCAFD381C89742000F6036B /* JJProgressHUD.m */,
+				9CCAFD2B1C8973FE00F6036B /* SVIndefiniteAnimatedView.h */,
+				9CCAFD2C1C8973FE00F6036B /* SVIndefiniteAnimatedView.m */,
+				9CCAFD2D1C8973FE00F6036B /* SVProgressHUD-Prefix.pch */,
+				9CCAFD2E1C8973FE00F6036B /* SVProgressHUD.bundle */,
+				9CCAFD2F1C8973FE00F6036B /* SVProgressHUD.h */,
+				9CCAFD301C8973FE00F6036B /* SVProgressHUD.m */,
+				9CCAFD311C8973FE00F6036B /* SVRadialGradientLayer.h */,
+				9CCAFD321C8973FE00F6036B /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +440,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CCAFD341C8973FE00F6036B /* SVProgressHUD.bundle in Resources */,
 				9CCAFCB81C89650F00F6036B /* LaunchScreen.storyboard in Resources */,
 				9CCAFCB51C89650F00F6036B /* Assets.xcassets in Resources */,
+				9CCAFD1F1C89717900F6036B /* LICENSE in Resources */,
 				9CCAFCB31C89650F00F6036B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +470,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CCAFCB01C89650F00F6036B /* ViewController.m in Sources */,
+				9CCAFD1B1C89717900F6036B /* AFSecurityPolicy.m in Sources */,
+				9CCAFD251C89717900F6036B /* UIButton+AFNetworking.m in Sources */,
+				9CCAFD221C89717900F6036B /* AFImageDownloader.m in Sources */,
+				9CCAFD271C89717900F6036B /* UIProgressView+AFNetworking.m in Sources */,
+				9CCAFCE21C8965B200F6036B /* WeChatPayMannager.m in Sources */,
+				9CCAFD231C89717900F6036B /* AFNetworkActivityIndicatorManager.m in Sources */,
+				9CCAFCF21C89708E00F6036B /* DataMD5.m in Sources */,
+				9CCAFD3C1C8974CA00F6036B /* XMLDictionary.m in Sources */,
+				9CCAFD281C89717900F6036B /* UIRefreshControl+AFNetworking.m in Sources */,
+				9CCAFD361C8973FE00F6036B /* SVRadialGradientLayer.m in Sources */,
+				9CCAFD201C89717900F6036B /* README.md in Sources */,
+				9CCAFD211C89717900F6036B /* AFAutoPurgingImageCache.m in Sources */,
+				9CCAFD261C89717900F6036B /* UIImageView+AFNetworking.m in Sources */,
+				9CCAFD1D1C89717900F6036B /* AFURLResponseSerialization.m in Sources */,
 				9CCAFCAD1C89650F00F6036B /* AppDelegate.m in Sources */,
+				9CCAFD191C89717900F6036B /* AFHTTPSessionManager.m in Sources */,
+				9CCAFD291C89717900F6036B /* UIWebView+AFNetworking.m in Sources */,
+				9CCAFD391C89742000F6036B /* JJProgressHUD.m in Sources */,
+				9CCAFD351C8973FE00F6036B /* SVProgressHUD.m in Sources */,
+				9CCAFD241C89717900F6036B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9CCAFD331C8973FE00F6036B /* SVIndefiniteAnimatedView.m in Sources */,
+				9CCAFD1C1C89717900F6036B /* AFURLRequestSerialization.m in Sources */,
+				9CCAFD1E1C89717900F6036B /* AFURLSessionManager.m in Sources */,
+				9CCAFD1A1C89717900F6036B /* AFNetworkReachabilityManager.m in Sources */,
 				9CCAFCAA1C89650F00F6036B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +635,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChat_Pay_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat_Pay_Demo/SDKExport",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dapengdeba.WeChat-Pay-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +650,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WeChat_Pay_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat_Pay_Demo/SDKExport",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "dapengdeba.WeChat-Pay-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +726,7 @@
 				9CCAFCD41C89651000F6036B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CCAFCD51C89651000F6036B /* Build configuration list for PBXNativeTarget "WeChat_Pay_DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +735,7 @@
 				9CCAFCD71C89651000F6036B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CCAFCD81C89651000F6036B /* Build configuration list for PBXNativeTarget "WeChat_Pay_DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +744,7 @@
 				9CCAFCDA1C89651000F6036B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
